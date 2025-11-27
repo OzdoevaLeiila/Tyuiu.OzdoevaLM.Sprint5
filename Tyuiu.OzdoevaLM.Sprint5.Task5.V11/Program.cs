@@ -11,12 +11,12 @@ namespace Tyuiu.OzdoevaLM.Sprint5.Task5.V11
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #5                                                               *");
             Console.WriteLine("* Тема: Класс File. Запись данных в текстовый файл                        *");
-            Console.WriteLine("* Задание #0                                                              *");
-            Console.WriteLine("* Вариант #23                                                             *");
+            Console.WriteLine("* Задание #5                                                              *");
+            Console.WriteLine("* Вариант #11                                                             *");
             Console.WriteLine("* Выполнила: Оздоева Л.М. | ИИПб-25-1                                     *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Дано выражение, вычислить его значение при x = 3, результат сохранить в *");
+            Console.WriteLine("* Найти произведение всех нечетных целых чисел в файле.вывести на консоль.*");
             Console.WriteLine("* текстовый файл OutPutFileTask0.txt и вывести на консоль.                *");
             Console.WriteLine("* Округлить до трёх знаков после запятой                                  *");
             Console.WriteLine("***************************************************************************");
@@ -31,7 +31,7 @@ namespace Tyuiu.OzdoevaLM.Sprint5.Task5.V11
             Console.WriteLine("***************************************************************************");
 
             double res = ds.LoadFromDataFile(path);
-            Console.WriteLine(res);
+            Console.WriteLine("произведение всех нечетных целых чисел в файле: " + res);
             Console.ReadKey();
         }
     }
