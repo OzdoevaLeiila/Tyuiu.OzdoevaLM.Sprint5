@@ -13,7 +13,7 @@ namespace Tyuiu.OzdoevaLM.Sprint5.Task0.V21
             Console.WriteLine("* Тема: Класс File. Запись данных в текстовый файл                        *");
             Console.WriteLine("* Задание #0                                                              *");
             Console.WriteLine("* Вариант #21                                                             *");
-            Console.WriteLine("* Выполнил: Медяничев Денис Игоревич | АСОиУб-24-1                        *");
+            Console.WriteLine("* Выполнила: Выполнила: Оздоева Л.М. | ИИПб-25-1                          *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Дано выражение вычислить его значение при x = 3,                        *");
