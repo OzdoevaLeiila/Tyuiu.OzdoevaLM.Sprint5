@@ -4,7 +4,7 @@ namespace Tyuiu.OzdoevaLM.Sprint5.Task0.V21.Lib
 {
     public class DataService : ISprint5Task0V21
     {
-        public string SaveToFileTextData(int x)
+        public string SaveToFileTextData(int x) 
         {
             string path = Path.Combine(new string[] { Path.GetTempPath(), "OutPutFileTask0.txt" });
 
